@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 
 public class SecontClass {
     public String getUserName() {
-        return "secont class";
+        return "secont";
     }
 }
