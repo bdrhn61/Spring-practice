@@ -30,6 +30,8 @@ public class UserController {
     private Reader reader;
 
 
+
+
     @GetMapping(path = "/users/{UserId}")
         public User getUserById(@PathVariable("UserId") int userId){
             return iUserService.getUserById(userId);
